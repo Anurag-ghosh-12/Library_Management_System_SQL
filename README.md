@@ -3,7 +3,7 @@
 This project demonstrates the power of SQL in building a robust Library Management System (LMS). We'll explore database design, CRUD operations, advanced queries, and how SQL transforms traditional bookkeeping. Let's dive in! 📖✨
 
 ## 🏗️ Database Schema
-
+![The Database setup](erd_library_management_system_using sql.png)
 The system consists of the following tables, designed to efficiently manage library resources:
 
 -   **🏢 LibraryBranch:** Stores branch details (branch ID, manager ID, address, contact).
