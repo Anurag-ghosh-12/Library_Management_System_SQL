@@ -20,7 +20,7 @@ The system consists of the following tables, designed to efficiently manage libr
 
 1.  **💾 Database Creation:**
     -   Create a database named `library_system`.
-    -   Execute the SQL script (`library_system.sql`) to create tables and insert sample data.
+    -   Execute the SQL script (`Library_main_script.sql`) to create tables and insert sample data.
 
 2.  **▶️ SQL Script Execution:**
     -   Use a SQL client (e.g., MySQL Workbench, pgAdmin, SQL Server Management Studio).
