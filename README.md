@@ -1,9 +1,12 @@
 # 📚 Library Management System (SQL) 🚀
 
+Author: Anurag Ghosh 
+
 This project demonstrates the power of SQL in building a robust Library Management System (LMS). We'll explore database design, CRUD operations, advanced queries, and how SQL transforms traditional bookkeeping. Let's dive in! 📖✨
 
 ## 🏗️ Database Schema
-![The Database setup](erd_library_management_system_using sql.png)
+<img src="erd_library_management_system_using sql.png" alt="Database design">
+
 The system consists of the following tables, designed to efficiently manage library resources:
 
 -   **🏢 LibraryBranch:** Stores branch details (branch ID, manager ID, address, contact).
@@ -60,6 +63,16 @@ CRUD (Create, Read, Update, Delete) operations are fundamental to database manag
     ```sql
     SELECT category, COUNT(*) AS book_count FROM Books GROUP BY category ORDER BY book_count DESC;
     ```
+  <img src="LIBRARY_books_dist.png" alt="Books count">
+
+-  Book issued and Books of different publisher report:
+   <br>
+   <br>
+    Books by publishers via a piechart:
+    <img src="LIBRARY_bookpublisher_dist.png" alt="Books count">
+    Books issued report: 
+    <img src="LIBRARY_book_issued_graph.png" alt="Books count">
+    Publisher report
 
 -   **💰 Finding Total Rental Income:**
     ```sql
@@ -95,6 +108,8 @@ CRUD (Create, Read, Update, Delete) operations are fundamental to database manag
     GROUP BY lb.branch_id
     ORDER BY total_books_issued DESC;
     ```
+    The visual representation:
+    <img src="LIBRARY_branchreport_graph.png" alt="Branch report">
 
 ## 💖 Motivation: From Traditional Bookkeeping to SQL
 
